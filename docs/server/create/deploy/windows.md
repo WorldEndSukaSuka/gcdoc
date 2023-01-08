@@ -7,19 +7,13 @@ sidebar_label: 💠 Windows
 
 ### 🗃️ MongoDB 数据库
 
-前往 [MongoDB 官网](https://www.mongodb.com/try/download/community)，在右侧下载 5.x 版本的 MongoDB，推荐使用 msi 安装
+前往 [MongoDB 官网](https://www.mongodb.com/try/download/community)，在右侧下载最新版本的 MongoDB，推荐使用 msi 安装
 
 ### ☕ OpenJDK 17
 
-前往 [Java 官网](https://jdk.java.net/archive/)，下载 zip 文件，解压到一个平时不会动的位置(比如 `C:\Program Files\Java`)
+前往 [Java 官网](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)，下载 msi 文件安装
 
-右键`计算机` -> `属性` -> `高级系统设置` -> `高级` -> `环境变量`
-
-点击`系统变量`中的`新建`，建立一个名为 `JAVA_HOME` 的变量，并设置为解压的路径，比如 `C:\Program Files\Java\jdk-17.0.2`
-
-在`系统变量`中找到 `Path`，点击`编辑`，在弹出的窗口中添加 `$JAVA_HOME\bin`
-
-在任意位置打开一个 cmd 窗口，如果 `java -version` 有输出类似 `openjdk version "17.0.3" 2022-04-19` 的内容则表示安装成功
+在任意位置打开一个 cmd 窗口，如果 `java -version` 有输出类似 `java version "17.0.5" 2022-10-18 LTS` 的内容则表示安装成功
 
 ### ⛓️ mitmproxy
 
@@ -37,7 +31,7 @@ sidebar_label: 💠 Windows
 
 #### ⛓️ mitmproxy 本体
 
-前往 [mitmproxy 官网](https://mitmproxy.org/)，下载 Windows Installer 并安装
+打开一个管理员 cmd 窗口，输入`pip install mitmproxy`
 
 ## 📟 运行服务器
 

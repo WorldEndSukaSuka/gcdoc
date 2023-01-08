@@ -37,9 +37,15 @@ sidebar_label: 💠 Windows
 
 在资源管理器中打开 Grasscutter 所在文件夹，将上方地址栏中的内容改为 `cmd`，回车即可在当前目录打开命令提示符
 
-在确保 MongoDB 在正常运行的情况下，输入 `run.bat` 即可启动服务端
+:::tip
 
-然后运行 `proxy.bat`，启动 mitmproxy 代理
+请将 <grasscutter> 替换为您下载/编译的文件名
+
+:::
+
+在确保 MongoDB 在正常运行的情况下，输入 `java -jar <grasscutter>.jar` 即可启动服务端
+
+然后运行 `mitmdump -s proxy.py -k`，启动 mitmproxy 代理
 
 :::info
 

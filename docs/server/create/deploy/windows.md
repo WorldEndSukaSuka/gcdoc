@@ -38,8 +38,7 @@ sidebar_label: 💠 Windows
 在资源管理器中打开 Grasscutter 所在文件夹，将上方地址栏中的内容改为 `cmd`，回车即可在当前目录打开命令提示符
 
 :::tip
-
-请将 <grasscutter> 替换为您下载/编译的文件名
+请将 `<grasscutter>` 替换为您下载/编译的文件名
 
 :::
 

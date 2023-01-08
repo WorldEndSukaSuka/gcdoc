@@ -53,3 +53,7 @@ By [Chi_Tang](https://www.chitang.tech)
 使用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 协议共享
 
 :::
+
+## 🔗 连接服务器
+
+请参阅 [加入服务器](https://genkit.org/docs/client/oneclick)
